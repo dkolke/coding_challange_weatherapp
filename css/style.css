@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: sans-serif;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background-color: #d3d3d3;
+}
+
+header {
+    background-color: lightskyblue;
+    text-align: center;
+    padding: 15px;
+}
+
+h1 {
+    color: white;
+}
+
+#contentDiv {
+    margin: 20px 20px 20px 20px;
+}
+
+.suggestionButton {
+    background: #d3d3d3;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin: 2px 2px 2px 2px;
+    padding: 5px;
+}
+
+#weather {
+    display: flex;
+  }
+  
+#weather > div {
+    margin: 10px;
+    padding: 20px;
+}
+
+
